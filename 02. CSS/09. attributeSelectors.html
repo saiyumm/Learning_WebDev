@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+    <style>
+        input[type="password"]{
+            background-color: #454545;
+            color: aliceblue;
+        }
+
+        a[href*="google"]{
+            color: tomato;
+        }
+        a[href^="http"]{
+            font-style: italic;
+        }
+        a[href$="com"]{
+            font-weight: bolder;
+        }
+        a[href*=bing]{
+            font-size: xx-large;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <h1>Attribute Selectors</h1>
+    <br>
+
+    <form action="#">
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname"><br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"><br><br>
+    </form>
+    <hr>
+
+    <a href="http://google.co.in">Google India</a><br>
+    <a href="http://yahoo.com">Yahoo</a><br>
+    <a href="http://google.co.uk">Google UK</a><br>
+    <a href="www.bing.com">Bing</a>
+
+</body>
+</html>
