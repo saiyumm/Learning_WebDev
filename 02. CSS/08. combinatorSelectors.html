@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selectors</title>
+    <style>
+        div.descendent li{
+            color: brown;
+        }
+
+        div.child>li{
+            color: blue;
+        }
+
+        div.adjacent+li{
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>Descendent Selector</h2>
+    <div class="descendent">
+        <li>Descendent Selector</li>
+        <li>Descendent Selector</li>
+    </div>
+    <li>Descendent Selector</li>
+    <hr>
+
+    <h2>Child Selector</h2>
+    <p>only selects the direct child</p>
+    <div class="child">
+        <li>Cars</li>
+        <ul>
+            <li>12</li>
+            <li>12</li>
+        </ul>
+        <li>Buses</li>
+    </div>
+    <hr>
+
+    <h2>Adjacent Selector</h2>
+    <div class="adjacent">
+        <li>Items</li>
+        <li>Items</li>
+        <li>Items</li>
+    </div>
+    <li>Check</li>
+    <li>Check</li>
+</body>
+</html>
