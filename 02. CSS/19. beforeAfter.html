@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        h2::before{
+            content: 'before';
+            text-transform: uppercase;
+            color: coral;
+            border: 2px dashed crimson;
+            font-family: sans-serif;
+        }
+        h2::after{
+            content: 'after';
+            text-transform: uppercase;
+            color: cornflowerblue;
+            border: 2px dashed darkgoldenrod;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is the heading</h2>
+</body>
+</html>
