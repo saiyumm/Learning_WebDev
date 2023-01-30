@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+}
+
+article{
+    margin: 10px 0;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    display: block;
+    border-bottom: 2px solid lightgray;
+}
+
+li:hover{
+    border-bottom: 1px solid white;
+}
+
+section{
+    margin: 25px 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
