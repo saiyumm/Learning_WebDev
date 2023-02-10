@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.fav-musicians{
+    border: 10px solid green;
+}
+
+.mozart{
+    width: 45%;
+    border: 5px solid red;
+    background-color: lightgoldenrodyellow;
+    float: left;
+}
+
+.bethhoven{
+    width: 55%;
+    background-color: lightsalmon;
+    float: right;
+    border: 4px solid darkorchid;
+}
+
+.clearfix{
+    clear: both;
+}
