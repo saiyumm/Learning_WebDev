@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.animals{
+    border: 8px solid darkslategrey;
+}
+
+.dog{
+    background-color: lightsteelblue;
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border-right: 1px whitesmoke solid;
+}
+
+.cat{
+    background-color: lightblue;
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border-right: 1px whitesmoke solid;
+}
+
+.horse{
+    background-color: lightgreen;
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border-right: 1px whitesmoke solid;
+}
+
+.elephant{
+    background-color: lightpink;
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+.animals::after{
+    content: "";
+    display: block;
+    clear: both;
+}
