@@ -764,3 +764,9 @@ header{
         height: 90vmax;
     }
 }
+
+
+
+.about .container{
+    height: 71vh;
+}
